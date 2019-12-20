@@ -1,0 +1,173 @@
+/* Регистрация */
+
+.signup {
+    position: absolute;
+    width: 30%;
+    height: 80%;
+    left: 35%;
+    top: 10%;
+    background: #85B7B4;
+
+    border: 0px;
+    border-radius: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#name {
+    position: absolute;
+    width: 75%;
+    height: 10%;
+    left: 12.5%;
+    top: 31%;
+
+    border: 0px;
+    border-radius: 6px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 37px;
+    align-items: center;
+    text-align: left;
+
+    background: #FFFFFF;
+}
+
+/* Rectangle 6 */
+
+#email {
+    position: absolute;
+    width: 75%;
+    height: 10%;
+    left: 12.5%;
+    top: 48%;
+
+    border: 0px;
+    border-radius: 6px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 37px;
+    align-items: center;
+    text-align: left;
+
+    background: #FFFFFF;
+}
+
+/* Rectangle 7 */
+#password {
+    position: absolute;
+    width: 75%;
+    height: 10%;
+    left: 12.5%;
+    top: 65%;
+
+    border: 0px;
+    border-radius: 6px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 37px;
+    align-items: center;
+    text-align: left;
+
+    background: #FFFFFF;
+}
+
+#back {
+    position: absolute;
+    width: 40%;
+    height: 12%;
+    left: 7%;
+    top: 82%;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 35px;
+
+    background: #85B7B4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#next {
+    position: absolute;
+    width: 40%;
+    height: 12%;
+    left: 53%;
+    top: 82%;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 35px;
+
+    background: #85B7B4;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#email-text {
+    position: absolute;
+    width: 90%;
+    height: 59%;
+    left: 5%;
+    top: 20%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    align-items: center;
+    text-align: center;
+
+    display: none;
+    color: #FFFFFF;
+}
+#code {
+    position: absolute;
+    width: 75%;
+    height: 10%;
+    left: 12.5%;
+    top: 65%;
+
+    border: 0px;
+    border-radius: 6px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 37px;
+    align-items: center;
+    text-align: left;
+
+    display: none;
+    background: #FFFFFF;
+}

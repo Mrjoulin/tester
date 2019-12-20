@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/signup.css">
+
+    <title>Регистрация</title>
+</head>
+<body>
+<div class="signup">
+    <p>Регистрация</p>
+    <div>
+        <input type="text" placeholder="ФИО" id="name">
+    </div>
+    <div>
+        <input type="text" placeholder="Email" id="email">
+    </div>
+    <div>
+        <input type="password" placeholder="Пароль" id="password">
+    </div>
+    <div>
+       <a href="./index.html">
+            <button id="back">
+                Назад
+            </button>
+        </a>
+        <a href="#">
+            <button id="next" onclick="next()">
+                Далее
+            </button>
+        </a>
+    </div>
+
+    <div>
+        <p id="email-text">
+            Для подтверждения вашего email адреса, введите код из письма, присланного на
+        </p>
+        <div>
+            <input type="text" placeholder="Код" id="code" required>
+        </div>
+    </div>
+</div>
+<script src="js/signup.js"></script>
+</body>
+</html>
