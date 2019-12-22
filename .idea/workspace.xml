@@ -1,17 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44623160-33e2-4b97-9331-7aaff107e5bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/detection/trt_detecton/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/detection/trt_detecton/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tester.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VGKoqfj4N6n9zxCuhpcN6EWcBJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AR_remove_object" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44623160-33e2-4b97-9331-7aaff107e5bf" name="Default Changelist" comment="" />
+      <created>1576874169477</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576874169477</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Add login and sign up windows">
+      <created>1576874256925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576874256925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add login and sign up windows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add login and sign up windows" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1832" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1576874190098">
+    <state x="1655" y="0" width="777" height="768" key="CommitChangelistDialog2" timestamp="1576874256316">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
-    <state x="1832" y="142" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576874190098" />
+    <state x="1655" y="0" width="777" height="768" key="CommitChangelistDialog2/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576874256316" />
+    <state x="1832" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1577003851914">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1832" y="142" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1577003851914" />
+    <state x="1644" y="120" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1576874266364">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1644" y="120" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576874266364" />
+    <state x="1705" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1577003841781">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="1705" y="211" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1577003841781" />
   </component>
 </project>

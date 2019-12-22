@@ -1,0 +1,268 @@
+/* Создать вариант */
+
+#create-window-button {
+    position: absolute;
+    width: 33.2%;
+    height: 11%;
+    left: 0px;
+    top: 0px;
+    background: #4E8F8B;
+    border-radius: 16px;
+    border: 4px solid #4E8F8B;
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+/* Решить вариант */
+#solve-window-button {
+
+    position: absolute;
+    width: 33.2%;
+    height: 11%;
+    left: 33.4%;
+    top: 0px;
+    background: #85B7B4;
+    border-radius: 16px;
+    border: 4px solid #4E8F8B;
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* Личный Кабинет */
+#personal-area-window-button {
+    position: absolute;
+    width: 33%;
+    height: 11%;
+    left: 66.8%;
+    top: 0px;;
+    background: #85B7B4;
+    border-radius: 16px;
+    border: 4px solid #4E8F8B;
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#create {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#question-1 {
+    position: absolute;
+    width: 96%;
+    height: 22%;
+    left: 4%;
+    top: 20%;
+}
+
+#subject {
+    position: absolute;
+    width: 20%;
+    height: 26%;
+    left: 3%;
+    top: 65%;
+    background: #FFFFFF;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+}
+
+#other-subject {
+    position: absolute;
+    width: 20%;
+    height: 21%;
+    left: 26%;
+    top: 65%;
+    background: #FFFFFF;
+    display: none;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    align-items: center;
+}
+
+#question-2 {
+    position: absolute;
+    width: 96%;
+    height: 22%;
+    left: 4%;
+    top: 40%;
+}
+
+#theme {
+    position: absolute;
+    width: 38%;
+    height: 24%;
+    left: 3%;
+    top: 65%;
+    background: #FFFFFF;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+}
+
+#question-3 {
+    position: absolute;
+    width: 96%;
+    height: 22%;
+    left: 4%;
+    top: 60%;
+}
+
+#comment {
+    position: absolute;
+    width: 38%;
+    height: 85%;
+    left: 3%;
+    top: 65%;
+    background: #FFFFFF;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+}
+
+#create-button {
+    position:absolute;
+    width: 13%;
+    height: 8%;
+    left: 75%;
+    top: 85%;
+
+    border: 0px;
+    font-size: 26px;
+    background: #85B7B4;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+
+#solve {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: none;
+    align-items: center;
+
+    color: #000000;
+}
+
+#option-text {
+    position: absolute;
+    width: 40%;
+    height: 22%;
+    left: 4%;
+    top: 15%;
+    text-align: center;
+}
+
+#option {
+    position: absolute;
+    width: 38%;
+    height: 7%;
+    left: 6%;
+    top: 38%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+}
+
+#option-info {
+    position: absolute;
+    width: 70%;
+    height: 40%;
+    left: 6%;
+    top: 48%;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 39px;
+    display: flex;
+}
+
+#solve-button {
+    position:absolute;
+    width: 13%;
+    height: 8%;
+    left: 75%;
+    top: 85%;
+
+    border: 0px;
+    font-size: 26px;
+    background: #85B7B4;
+    border-radius: 30px;
+    color: #FFFFFF;
+}
+
+
+#personal-area {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    display: none;
+    align-items: center;
+
+    color: #000000;
+}

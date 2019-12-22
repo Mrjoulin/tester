@@ -1,5 +1,9 @@
+var need_code;
 
-var name_person, email, pass, text, code;
+function send_need_code() {
+    need_code = Math.floor(Math.random()* 9000) + 1000;
+    /* send email */
+}
 
 function next(){
     console.log("I'm here");
@@ -18,5 +22,15 @@ function next(){
         text.style = 'display: block';
         code.style = 'display: block';
         /* Sending email and check num of emails what was send in that email */
+        send_need_code();
+        console.log(need_code);
+    } else {
+        if (parseInt(code.value, 10) === need_code) {
+            console.log(true)
+            document.location.href = "./menu.html";
+        } else {
+            error_code = document.getElementById('error-code');
+            error_code.style = 'display: block';
+        }
     }
 }

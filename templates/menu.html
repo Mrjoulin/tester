@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/menu.css">
+    <title>Меню | Приложение-тестировщик</title>
+</head>
+<body>
+    <div class="header">
+        <button id="create-window-button" onclick="change_window('create')">
+            Создать вариант
+        </button>
+        <button id="solve-window-button" onclick="change_window('solve')">
+            Решить вариант
+        </button>
+        <button id="personal-area-window-button" onclick="change_window('personal-area')">
+            Личный кабинет
+        </button>
+    </div>
+    <div id="create">
+        <div id="question-1">
+            <p>1. Тестируемый предмет:</p>
+            <select id="subject" onchange="select_subject()">
+                <option selected value="rus">Русский Язык</option>
+                <option value="liter">Литература</option>
+                <option value="math">Математика</option>
+                <option value="phys">Физика</option>
+                <option value="it">Информатика</option>
+                <option value="bio">Биология</option>
+                <option value="chem">Химия</option>
+                <option value="ss">Обществознание</option>
+                <option value="eng">Английский Язык</option>
+                <option value="other">Другой..</option>
+            </select>
+            <input type="text" id="other-subject" placeholder="Название предмета">
+        </div>
+        <div id="question-2">
+            <p>2. Тема теста:</p>
+            <input type="text" id="theme" placeholder="Тема">
+        </div>
+        <div id="question-3">
+            <p>3. Примечания к тесту (необязательно):</p>
+            <textarea id="comment" placeholder="Примечания"></textarea>
+        </div>
+        <a href="./create.html">
+            <button id="create-button" onclick="create()">Создать</button>
+        </a>
+    </div>
+    <div id="solve">
+        <p id="option-text">Введите номер варианта, тему, или ФИО учителя для решения варианта:</p>
+        <input type="text" placeholder="Введите сюда" id="option" onchange="find_option()">
+        <pre id="option-info"></pre>
+        <a href="./solve.html">
+            <button id="solve-button" onchange="solve()">Решить</button>
+        </a>
+    </div>
+    <div id="personal-area">
+    </div>
+<script src="js/menu.js"></script>
+</body>
+</html>
