@@ -6,16 +6,20 @@
     <title>Меню | Приложение-тестировщик</title>
 </head>
 <body>
-    <div class="header">
-        <button id="create-window-button" onclick="change_window('create')">
-            Создать вариант
-        </button>
-        <button id="solve-window-button" onclick="change_window('solve')">
-            Решить вариант
-        </button>
-        <button id="personal-area-window-button" onclick="change_window('personal-area')">
-            Личный кабинет
-        </button>
+    <div class="left-sidebar">
+        <img src="../photos/avatar.jpg" id="avatar"/>
+        <p id="user-name">Иванов М.С.</p>
+        <nav id="navigation">
+            <button id="personal-area-window-button" onclick="change_window('personal-area')">
+                Личный Кабинет
+            </button>
+            <button id="create-window-button" onclick="change_window('create')">
+                Создать вариант
+            </button>
+            <button id="solve-window-button" onclick="change_window('solve')">
+                Решить вариант
+            </button>
+        </nav>
     </div>
     <div id="create">
         <div id="question-1">
@@ -34,12 +38,15 @@
             </select>
             <input type="text" id="other-subject" placeholder="Название предмета">
         </div>
+
         <div id="question-2">
             <p>2. Тема теста:</p>
-            <input type="text" id="theme" placeholder="Тема">
+            <div id="theme-box">
+                <input type="text" id="theme" placeholder="Тема">
+            </div>
         </div>
         <div id="question-3">
-            <p>3. Примечания к тесту (необязательно):</p>
+            <p>3. Примечания к тесту:</p>
             <textarea id="comment" placeholder="Примечания"></textarea>
         </div>
         <a href="./create.html">
