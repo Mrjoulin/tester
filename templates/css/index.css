@@ -1,3 +1,16 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../../fonts/Montserrat-Medium.ttf");
+}
+
+input:focus, textarea, select, button {
+    outline: none !important;
+}
+
+button {
+    cursor: pointer;
+}
+
 /* Вход */
 .login {
     position: absolute;

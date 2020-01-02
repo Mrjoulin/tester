@@ -1,15 +1,29 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("../../fonts/Montserrat-Medium.ttf");
+}
+
+input:focus, textarea, select, button {
+    outline: none !important;
+}
+
+button {
+    cursor: pointer;
+}
+
 /* Войти */
 
 .login {
     position: absolute;
     width: 30%;
-    height: 62.5%;
+    height: 64%;
     left: 35%;
     top: 18.6%;
     background: #85B7B4;
 
     border: 0px;
     border-radius: 10px;
+    box-shadow: 0 4px 4px  rgba(0, 0, 0, 0.25);
 
     font-family: Montserrat;
     font-style: normal;
@@ -27,7 +41,7 @@
 #email {
     position: absolute;
     width: 75%;
-    height: 10%;
+    height: 12%;
     left: 12.5%;
     top: 40%;
 
@@ -49,7 +63,7 @@
 #password {
     position: absolute;
     width: 75%;
-    height: 10%;
+    height: 12%;
     left: 12.5%;
     top: 60%;
 
@@ -70,7 +84,7 @@
 #back {
     position: absolute;
     width: 40%;
-    height: 12%;
+    height: 15%;
     left: 7%;
     top: 82%;
 
@@ -82,7 +96,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 37px;
     align-items: center;
     text-align: center;
@@ -93,7 +107,7 @@
 #next {
     position: absolute;
     width: 40%;
-    height: 12%;
+    height: 15%;
     left: 53%;
     top: 82%;
 
@@ -105,7 +119,7 @@
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 37px;
     align-items: center;
     text-align: center;

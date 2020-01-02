@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="left-sidebar">
-        <img src="../photos/avatar.jpg" id="avatar"/>
+        <img src="../photos/avatar.jpg" id="avatar" alt=""/>
         <p id="user-name">Иванов М.С.</p>
         <nav id="navigation">
             <button id="personal-area-window-button" onclick="change_window('personal-area')">
@@ -24,7 +24,7 @@
     <div id="create">
         <div id="question-1">
             <p>1. Тестируемый предмет:</p>
-            <select id="subject" onchange="select_subject()">
+            <label for="subject"></label><select id="subject" onchange="select_subject()">
                 <option selected value="rus">Русский Язык</option>
                 <option value="liter">Литература</option>
                 <option value="math">Математика</option>
@@ -36,13 +36,12 @@
                 <option value="eng">Английский Язык</option>
                 <option value="other">Другой..</option>
             </select>
-            <input type="text" id="other-subject" placeholder="Название предмета">
+            <label for="other-subject"></label><input type="text" id="other-subject" placeholder="Название предмета">
         </div>
-
         <div id="question-2">
             <p>2. Тема теста:</p>
             <div id="theme-box">
-                <input type="text" id="theme" placeholder="Тема">
+                <label for="theme"></label><input type="text" id="theme" placeholder="Тема">
             </div>
         </div>
         <div id="question-3">

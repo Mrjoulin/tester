@@ -2,17 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44623160-33e2-4b97-9331-7aaff107e5bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/create.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/detection/trt_detecton/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/detection/trt_detecton/engine.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/tester.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tester.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/signup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,9 +41,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AR_remove_object" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/photos" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/photos" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -51,6 +75,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576874169477</updated>
+      <workItem from="1577555956455" duration="2056000" />
+      <workItem from="1577610046494" duration="12594000" />
+      <workItem from="1577953354078" duration="27585000" />
     </task>
     <task id="LOCAL-00001" summary="Add login and sign up windows">
       <created>1576874256925</created>
@@ -62,11 +89,18 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add login and sign up windows" />
     <option name="LAST_COMMIT_MESSAGE" value="Add login and sign up windows" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="3371" y="198" width="800" height="684" key="#Vim_Emulation" timestamp="1577618904831">
+      <screen x="2732" y="0" width="2560" height="1080" />
+    </state>
+    <state x="3371" y="198" width="800" height="684" key="#Vim_Emulation/1366.0.1366.768/2732.0.2560.1080/0.27.1366.741@2732.0.2560.1080" timestamp="1577618904831" />
     <state x="1655" y="0" width="777" height="768" key="CommitChangelistDialog2" timestamp="1576874256316">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
@@ -83,5 +117,13 @@
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1705" y="211" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1577003841781" />
+    <state x="3429" y="154" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577998368499">
+      <screen x="2732" y="0" width="2560" height="1080" />
+    </state>
+    <state x="3429" y="154" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.0.1366.768/2732.0.2560.1080/0.27.1366.741@2732.0.2560.1080" timestamp="1577998368499" />
+    <state x="3440" y="243" key="run.anything.popup" timestamp="1577958662284">
+      <screen x="2732" y="0" width="2560" height="1080" />
+    </state>
+    <state x="3440" y="243" key="run.anything.popup/1366.0.1366.768/2732.0.2560.1080/0.27.1366.741@2732.0.2560.1080" timestamp="1577958662284" />
   </component>
 </project>
