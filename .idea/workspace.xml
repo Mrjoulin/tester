@@ -2,20 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44623160-33e2-4b97-9331-7aaff107e5bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/photos/remove.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/css/create.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/css/solve.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/solve.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/.idea/AR_remove_object.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/.idea/AR_remove_object.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/Docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/detection/trt_detecton/engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/detection/trt_detecton/engine.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/detection/trt_optimization/optimization.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/detection/trt_optimization/optimization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/feature/track_object/plane_tracker.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/feature/track_object/plane_tracker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/inpaint.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/inpaint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/inpaint_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/net/v1/inpaint_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/inpaint_ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/net/v1/inpaint_ops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/models/link_to_model_install.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/models/link_to_model_install.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/net/network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/inpaint/net/ops.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/backend/source.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/backend/source.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/colors.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/engine/engine.buf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/engine/engine_bs_1.buf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/objectdetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/local/render.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/fast_boxes/frozen_inference_graph.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/frozen_inference_graph.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/frozen_inference_graph2.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/mask_rcnn/frozen_inference_graph.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/mask_rcnn/mscoco_label_map.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/ssd_inception_v2/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/ssd_inception_v2/frozen_inference_graph.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/ssd_inception_v2/frozen_inference_graph.pbtxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/ssd_inception_v2/frozen_inference_graph.uff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/ssd_inception_v2/model.ckpt.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/ssd_inception_v2/model.ckpt.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/ssd_inception_v2/model.ckpt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/local/tensorflow-graph/ssd_inception_v2/saved_model/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/Docker/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/server/frame_render.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/server/frame_render.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/server/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/server/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AR_remove_object/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AR_remove_object/wsgi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/photos/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/files.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/photos/files.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/image-icon-96.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/photos/image-icon-96.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/pc.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/photos/pc.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/remove.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/photos/remove.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/rus_lang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/photos/rus_lang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/russian_lang.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/photos/russian_lang.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/create.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/create.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/css/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/css/signup.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/signup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/templates/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/js/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/templates/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +70,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,6 +94,9 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/photos" />
     </key>
@@ -77,7 +125,17 @@
       <updated>1576874169477</updated>
       <workItem from="1577555956455" duration="2056000" />
       <workItem from="1577610046494" duration="12594000" />
-      <workItem from="1577953354078" duration="27585000" />
+      <workItem from="1577953354078" duration="28217000" />
+      <workItem from="1578044306907" duration="5490000" />
+      <workItem from="1578067796053" duration="16016000" />
+      <workItem from="1578129404710" duration="972000" />
+      <workItem from="1578386543799" duration="20000" />
+      <workItem from="1578568913401" duration="48000" />
+      <workItem from="1579534176537" duration="4014000" />
+      <workItem from="1579610218649" duration="9981000" />
+      <workItem from="1579688179579" duration="2851000" />
+      <workItem from="1579794039215" duration="589000" />
+      <workItem from="1579978585388" duration="8501000" />
     </task>
     <task id="LOCAL-00001" summary="Add login and sign up windows">
       <created>1576874256925</created>
@@ -86,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576874256925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add create window">
+      <created>1578003417274</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578003417274</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,36 +159,48 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add login and sign up windows" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add login and sign up windows" />
+    <MESSAGE value="Add create window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add create window" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3371" y="198" width="800" height="684" key="#Vim_Emulation" timestamp="1577618904831">
       <screen x="2732" y="0" width="2560" height="1080" />
     </state>
     <state x="3371" y="198" width="800" height="684" key="#Vim_Emulation/1366.0.1366.768/2732.0.2560.1080/0.27.1366.741@2732.0.2560.1080" timestamp="1577618904831" />
-    <state x="1655" y="0" width="777" height="768" key="CommitChangelistDialog2" timestamp="1576874256316">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="3238" y="0" width="777" height="768" key="CommitChangelistDialog2" timestamp="1578003411820">
+      <screen x="2732" y="0" width="2560" height="1080" />
     </state>
     <state x="1655" y="0" width="777" height="768" key="CommitChangelistDialog2/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576874256316" />
+    <state x="3238" y="0" key="CommitChangelistDialog2/1366.0.1366.768/2732.0.2560.1080/0.27.1366.741@2732.0.2560.1080" timestamp="1578003411820" />
     <state x="1832" y="142" width="424" height="491" key="FileChooserDialogImpl" timestamp="1577003851914">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1832" y="142" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1577003851914" />
-    <state x="1644" y="120" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1576874266364">
-      <screen x="1366" y="0" width="1366" height="768" />
+    <state x="3253" y="169" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1578003456624">
+      <screen x="2732" y="0" width="2560" height="1080" />
     </state>
     <state x="1644" y="120" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1576874266364" />
+    <state x="3253" y="169" key="Vcs.Push.Dialog.v2/1366.0.1366.768/2732.0.2560.1080/0.27.1366.741@2732.0.2560.1080" timestamp="1578003456624" />
     <state x="1705" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1577003841781">
       <screen x="1366" y="0" width="1366" height="768" />
     </state>
     <state x="1705" y="211" key="com.intellij.ide.util.TipDialog/0.27.1366.741/1366.0.1366.768@1366.0.1366.768" timestamp="1577003841781" />
-    <state x="3429" y="154" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577998368499">
-      <screen x="2732" y="0" width="2560" height="1080" />
+    <state x="2063" y="154" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579986545067">
+      <screen x="1366" y="0" width="2560" height="1080" />
     </state>
+    <state x="2063" y="154" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1366.741/1366.0.2560.1080@1366.0.2560.1080" timestamp="1579986545067" />
     <state x="3429" y="154" width="683" height="771" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1366.0.1366.768/2732.0.2560.1080/0.27.1366.741@2732.0.2560.1080" timestamp="1577998368499" />
+    <state x="2061" y="252" width="700" height="530" key="recent.locations.popup" timestamp="1579534662769">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="2061" y="252" width="700" height="530" key="recent.locations.popup/0.27.1366.741/1366.0.2560.1080@1366.0.2560.1080" timestamp="1579534662769" />
     <state x="3440" y="243" key="run.anything.popup" timestamp="1577958662284">
       <screen x="2732" y="0" width="2560" height="1080" />
     </state>
     <state x="3440" y="243" key="run.anything.popup/1366.0.1366.768/2732.0.2560.1080/0.27.1366.741@2732.0.2560.1080" timestamp="1577958662284" />
+    <state x="1819" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1579982250440">
+      <screen x="1366" y="0" width="2560" height="1080" />
+    </state>
+    <state x="1819" y="237" width="672" height="678" key="search.everywhere.popup/0.27.1366.741/1366.0.2560.1080@1366.0.2560.1080" timestamp="1579982250440" />
   </component>
 </project>

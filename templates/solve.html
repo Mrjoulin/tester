@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Решить вариант</title>
+    <link rel="stylesheet" href="css/solve.css">
+</head>
+<body>
+    <div id="solve-tasks">
+        <div class="header">
+            <p id="solve-task-number"></p>
+
+        </div>
+        <div class="info">
+            <p id="solve-task-text"></p>
+        </div>
+        <div id="annex">
+            <p id="annex-text">Приложения:</p>
+            <div id="annexes-solve" onload="annexes()">
+            </div>
+        </div>
+        <label for="answer"></label><input id="answer" placeholder=" Ответ"/>
+        <div id="buttons">
+            <button id="exit">Завершить</button>
+            <button id="next" onclick="nextTask()">Далее</button>
+        </div>
+        <div class="popup" id="popup" onclick="hide_popup()">
+            <div id="popup-content">
+                <img src="" alt="" id="popup-image">
+            </div>
+        </div>
+    </div>
+    <div id="tasks-results">
+        <p id="result-title">Итог варианта</p>
+        <table id="results">
+            <tr id="head">
+                <th>№</th>
+                <th>Ваш ответ</th>
+                <th>Правильный ответ</th>
+            </tr>
+        </table>
+        <button id="result-button" onclick="">Продолжить</button>
+    </div>
+<script src="js/menu.js"></script>
+</body>
+</html>

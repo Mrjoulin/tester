@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="left-sidebar">
-        <img src="../photos/avatar.jpg" id="avatar" alt=""/>
+        <img src="../src/photos/avatar.jpg" id="avatar" alt=""/>
         <p id="user-name">Иванов М.С.</p>
         <nav id="navigation">
             <button id="personal-area-window-button" onclick="change_window('personal-area')">
@@ -36,7 +36,7 @@
                 <option value="eng">Английский Язык</option>
                 <option value="other">Другой..</option>
             </select>
-            <label for="other-subject"></label><input type="text" id="other-subject" placeholder="Название предмета">
+            <label for="other-subject"></label><input type="text" id="other-subject" placeholder="Предмет">
         </div>
         <div id="question-2">
             <p>2. Тема теста:</p>
@@ -46,22 +46,26 @@
         </div>
         <div id="question-3">
             <p>3. Примечания к тесту:</p>
-            <textarea id="comment" placeholder="Примечания"></textarea>
+            <textarea id="comment" placeholder="Примечания (необязательно)"></textarea>
         </div>
         <a href="./create.html">
             <button id="create-button" onclick="create()">Создать</button>
         </a>
     </div>
     <div id="solve">
-        <p id="option-text">Введите номер варианта, тему, или ФИО учителя для решения варианта:</p>
-        <input type="text" placeholder="Введите сюда" id="option" onchange="find_option()">
-        <pre id="option-info"></pre>
-        <a href="./solve.html">
-            <button id="solve-button" onchange="solve()">Решить</button>
+        <p id="option-text">Введите номер варианта для решения:</p>
+        <input type="text" placeholder="Номер варианта" id="option" oninput="find_option()">
+        <div id="option-info">
+            <p id="teacher-info"></p>
+            <p id="theme-info"></p>
+            <p id="comment-info"></p>
+        </div>
+        <a>
+            <button id="solve-button" onclick="startSolve()">Решить</button>
         </a>
     </div>
     <div id="personal-area">
     </div>
-<script src="js/menu.js"></script>
+    <script src="js/menu.js"></script>
 </body>
 </html>
