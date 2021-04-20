@@ -1,6 +1,6 @@
 @font-face {
     font-family: Montserrat;
-    src: url("../../fonts/Montserrat-Medium.ttf");
+    src: url("../data/fonts/Montserrat-Medium.ttf");
 }
 
 input:focus, textarea, select, button {
@@ -24,10 +24,9 @@ button {
 
 #avatar {
     position:absolute;
-    width: 60px;
-    height: 60px;
-    left: 15px;
-    top: 15px;
+    width: 15%;
+    left: 5%;
+    top: 3%;
     border-radius: 50%;
 }
 
@@ -41,7 +40,7 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2.5vw;
     line-height: 39px;
     display: flex;
     align-items: center;
@@ -54,16 +53,16 @@ button {
 #personal-area-window-button {
     position: absolute;
     width: 100%;
-    height: 70px;
+    height: 12.5%;
     left: 0px;
-    top: 90px;
+    top: 12.5%;
     background: #4E8F8B;
     border: 0px;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 2.1vw;
     line-height: 34px;
     align-items: center;
     text-align: center;
@@ -76,9 +75,9 @@ button {
 #create-window-button {
     position: absolute;
     width: 100%;
-    height: 70px;
+    height: 12.5%;
     left: 0px;
-    top: 160px;
+    top: 25%;
     background: #85B7B4;
     border: 0px;
 
@@ -86,7 +85,7 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 2.1vw;
     line-height: 34px;
     align-items: center;
     text-align: center;
@@ -98,16 +97,16 @@ button {
 #solve-window-button {
     position: absolute;
     width: 100%;
-    height: 70px;
+    height: 12.5%;
     left: 0px;
-    top: 230px;
+    top: 37.5%;
     background: #85B7B4;
     border: 0px;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 28px;
+    font-size: 2.1vw;
     line-height: 34px;
     align-items: center;
     text-align: center;
@@ -119,7 +118,7 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2.5vw;
     line-height: 39px;
     display: none;
     align-items: center;
@@ -150,7 +149,7 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.6vw;
     line-height: 39px;
     display: flex;
     align-items: center;
@@ -172,9 +171,14 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.6vw;
     line-height: 39px;
     align-items: center;
+}
+
+.error-input::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
 }
 
 #question-2 {
@@ -201,7 +205,7 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.8vw;
     line-height: 39px;
     display: flex;
     align-items: center;
@@ -230,7 +234,7 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 1.6vw;
     line-height: 39px;
     display: flex;
     align-items: center;
@@ -244,7 +248,7 @@ button {
     top: 86%;
 
     border: 0px;
-    font-size: 26px;
+    font-size: 1.8vw;
     background: #85B7B4;
     border-radius: 30px;
     color: #FFFFFF;
@@ -255,7 +259,7 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 2.5vw;
     line-height: 39px;
     display: none;
     align-items: center;
@@ -286,7 +290,7 @@ button {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 2vw;
     line-height: 39px;
     display: flex;
     align-items: center;
@@ -297,19 +301,19 @@ button {
     width: 57%;
     height: 40%;
     left: 34%;
-    top: 44%;
+    top: 40%;
 
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 39px;
+    font-size: 1.7vw;
+    line-height: 150%;
     display: flex;
 
     color: #000000;
 }
 
-#teacher-info {
+#subject-info {
     position: absolute;
     width: 100%;
     height: 15%;
@@ -317,20 +321,28 @@ button {
     top: 0;
 }
 
+#teacher-info {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    left: 0;
+    top: 15%;
+}
+
 #theme-info {
     position: absolute;
     width: 100%;
     height: 30%;
     left: 0;
-    top: 15%;
+    top: 30%;
 }
 
 #comment-info {
     position: absolute;
     width: 100%;
-    height: 70%;
+    height: 40%;
     left: 0;
-    top: 30%;
+    top: 60%;
 }
 
 #solve-button {
@@ -341,7 +353,7 @@ button {
     top: 86%;
 
     border: 0px;
-    font-size: 26px;
+    font-size: 1.8vw;
     background: #85B7B4;
     border-radius: 30px;
     color: #FFFFFF;

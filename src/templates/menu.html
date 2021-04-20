@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="src/styles/menu.css">
     <title>Меню | Приложение-тестировщик</title>
 </head>
 <body>
     <div class="left-sidebar">
-        <img src="../src/photos/avatar.jpg" id="avatar" alt=""/>
+        <img src="src/data/photos/avatar.jpg" id="avatar" alt=""/>
         <p id="user-name">Иванов М.С.</p>
         <nav id="navigation">
             <button id="personal-area-window-button" onclick="change_window('personal-area')">
@@ -48,14 +48,15 @@
             <p>3. Примечания к тесту:</p>
             <textarea id="comment" placeholder="Примечания (необязательно)"></textarea>
         </div>
-        <a href="./create.html">
-            <button id="create-button" onclick="create()">Создать</button>
+        <a>
+            <button id="create-button" onclick="startCreate()">Создать</button>
         </a>
     </div>
     <div id="solve">
         <p id="option-text">Введите номер варианта для решения:</p>
         <input type="text" placeholder="Номер варианта" id="option" oninput="find_option()">
         <div id="option-info">
+            <p id="subject-info"></p>
             <p id="teacher-info"></p>
             <p id="theme-info"></p>
             <p id="comment-info"></p>
@@ -66,6 +67,6 @@
     </div>
     <div id="personal-area">
     </div>
-    <script src="js/menu.js"></script>
+    <script type="application/javascript" src="src/js/menu.js"></script>
 </body>
 </html>

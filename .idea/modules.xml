@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../AR_remove_object/.idea/AR_remove_object.iml" filepath="$PROJECT_DIR$/../AR_remove_object/.idea/AR_remove_object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../art_creator/.idea/art_creator.iml" filepath="$PROJECT_DIR$/../art_creator/.idea/art_creator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../compot_vk/.idea/compot_vk.iml" filepath="$PROJECT_DIR$/../compot_vk/.idea/compot_vk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dplnk/.idea/dplnk.iml" filepath="$PROJECT_DIR$/../dplnk/.idea/dplnk.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tester.iml" filepath="$PROJECT_DIR$/.idea/tester.iml" />
     </modules>
   </component>

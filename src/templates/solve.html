@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Решить вариант</title>
-    <link rel="stylesheet" href="css/solve.css">
+    <link rel="stylesheet" href="src/styles/solve.css">
 </head>
 <body>
     <div id="solve-tasks">
@@ -21,8 +21,7 @@
         </div>
         <label for="answer"></label><input id="answer" placeholder=" Ответ"/>
         <div id="buttons">
-            <button id="exit">Завершить</button>
-            <button id="next" onclick="nextTask()">Далее</button>
+            <button id="next" onclick="nextSolveTask()">Далее</button>
         </div>
         <div class="popup" id="popup" onclick="hide_popup()">
             <div id="popup-content">
@@ -41,6 +40,9 @@
         </table>
         <button id="result-button" onclick="">Продолжить</button>
     </div>
-<script src="js/menu.js"></script>
+<script src="src/js/menu.js"></script>
+<script>
+    window.onload = nextSolveTask();
+</script>
 </body>
 </html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Создать вариант</title>
+    <link rel="stylesheet" href="src/styles/create.css">
+</head>
+<body>
+<div id="create-task">
+    <div id="header">
+        <button id="back">
+            <img src="src/data/photos/arrow.png" style="width: 10%; height: 31%">
+            Назад
+        </button>
+        <p id="task-number">Задание №1</p>
+    </div>
+    <div id="task-info">
+        <label for="task-text"></label><textarea id="task-text" placeholder=" Текст задания"></textarea>
+        <label for="answer"></label><input id="answer" placeholder=" Ответ"/>
+    </div>
+    <div id="annex">
+        <p id="annex-title">Приложение:</p>
+        <div id="annexes">
+        </div>
+        <button id="annex-button" onclick="show_popup()">Прикрепить файл</button>
+    </div>
+    <div class="popup" id="popup" onclick="hide_popup()">
+        <div id="popup-content">
+            <div id="on-pc-block">
+                <input type="file" id="pc-file" style="display: none" onchange="upload_file(event)">
+                <a id="on-pc" onclick="document.getElementById('pc-file').click()">
+                    <img src="src/data/photos/pc.png" id="pc-image"/>
+                    <p id="pc-text">С компьютера</p>
+                </a>
+            </div>
+            <div id="on-files-block">
+                <a id="on-files" onclick="">
+                    <img src="src/data/photos/files.png" id="files-image">
+                    <p id="files-text">Из файлов</p>
+                </a>
+            </div>
+        </div>
+        <div id="error-popup">
+            <p><br>Не поддерживаемый файл!</p>
+        </div>
+    </div>
+    <div id="buttons">
+        <button id="show" onclick="preview()">Предпросмотр</button>
+        <button id="stop_create" onclick="stopCreate()">Завершить</button>
+        <button id="next" onclick="nextCreateTask()">Далее</button>
+    </div>
+</div>
+<div id="preview-created-tasks">
+    <p id="result-title">Номер варианта </p>
+    <p id="subtitle">Информация по нему будет отражаться в вашем личном кабинете</p>
+    <table id="created-tasks">
+        <tr id="head">
+            <th>№</th>
+            <th>Текст задания</th>
+            <th>Ответ</th>
+            <th>Приложения</th>
+        </tr>
+    </table>
+    <div class="buttons_block">
+        <button id="cancel-save" onclick="">Не сохранять</button>
+        <button id="save-all-tasks" onclick="">Продолжить</button>
+    </div>
+</div>
+<script src="src/js/menu.js"></script>
+</body>
+</html>

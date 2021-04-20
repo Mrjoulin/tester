@@ -1,6 +1,6 @@
 @font-face {
     font-family: Montserrat;
-    src: url("../../fonts/Montserrat-Medium.ttf");
+    src: url("../data/fonts/Montserrat-Medium.ttf");
 }
 
 input:focus, textarea, select, button {
